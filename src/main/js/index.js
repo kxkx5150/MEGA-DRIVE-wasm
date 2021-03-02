@@ -177,3 +177,43 @@ const loop = function () {
   frame = FPS;
   startTime = new Date().getTime();
 })();
+window.addEventListener(
+  "keydown",
+  (e) => {
+    key_down(e)
+  },
+  true
+);
+window.addEventListener(
+  "keyup",
+  (e) => {
+    key_up(e)
+  },
+  true
+);
+const key_down = (event)=> {
+  var handled_key = true;
+  if (event.keyCode === 65) input[10] = 1;
+  else if (event.keyCode === 90) input[11] = 1;
+  else if (event.keyCode === 88) input[9] = 1;
+  else if (event.keyCode === 13) input[15] = 1;
+  else if (event.keyCode === 38) input[7] = -1;
+  else if (event.keyCode === 40) input[7] = 1;
+  else if (event.keyCode === 37) input[6] = -1;
+  else if (event.keyCode === 39) input[6] = 1;
+  else handled_key = false;
+  if (handled_key) {
+    event.stopPropagation();
+    event.preventDefault();
+  }
+}
+const key_up = (event)=> {
+  if (event.keyCode === 65) input[10] = 0;
+  else if (event.keyCode === 90) input[11] = 0;
+  else if (event.keyCode === 88) input[9] = 0;
+  else if (event.keyCode === 13) input[15] = 0;
+  else if (event.keyCode === 38) input[7] = 0;
+  else if (event.keyCode === 40) input[7] = 0;
+  else if (event.keyCode === 37) input[6] = 0;
+  else if (event.keyCode === 39) input[6] = 0;
+}

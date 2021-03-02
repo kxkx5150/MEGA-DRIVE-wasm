@@ -6,20 +6,6 @@ window.addEventListener(
   },
   true
 );
-window.addEventListener(
-  "keydown",
-  (e) => {
-
-  },
-  true
-);
-window.addEventListener(
-  "keyup",
-  (e) => {
-
-  },
-  true
-);
 document.getElementById("fileInput").addEventListener("change", (e) => {
   const file = e.target.files[0];
   if (!file) return;
