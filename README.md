@@ -11,7 +11,7 @@ DEMO https://kxkx5150.github.io/MEGA-DRIVE-WASM/
 
 <br>
 
-h1romas4さんがWebAssemblyにした物をwebで遊べるようにしたものです。  
+h1romas4さんがWebAssemblyにされた物をwebで遊べるようにしたものです。  
 
 <br>
 
