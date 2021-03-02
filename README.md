@@ -23,4 +23,9 @@ https://github.com/h1romas4/wasm-genplus
 
 WASMの元となった物  
 Genesis-Plus-GX  
-https://github.com/ekeeke/Genesis-Plus-GX
+https://github.com/ekeeke/Genesis-Plus-GX  
+
+<br>
+
+## License
+[Genesis-Plus-GX](https://github.com/ekeeke/Genesis-Plus-GX/blob/master/LICENSE.txt) License
