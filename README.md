@@ -5,6 +5,8 @@ JavaScriptではスーパーファミコン、メガドライブ　クラスに�
 実行速度が問題になりますがWebAssemblyなら大丈夫です。  
 WebAssemblyすごい
 
+<br><br>
+
 DEMO https://kxkx5150.github.io/MEGA-DRIVE-WASM/  
 
 <br>
