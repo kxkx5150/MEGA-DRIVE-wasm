@@ -1,4 +1,4 @@
-# MEGA-DRIVE-WASM
+# MEGA-DRIVE-wasm
 
 WebAssemblyのパフォーマンスの良さを体感出来るデモです  
 JavaScriptではスーパーファミコン、メガドライブ　クラスになると  
