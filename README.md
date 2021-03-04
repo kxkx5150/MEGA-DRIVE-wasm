@@ -7,7 +7,7 @@ WebAssemblyすごい
 
 <br><br>
 
-DEMO https://kxkx5150.github.io/MEGA-DRIVE-WASM/  
+DEMO https://kxkx5150.github.io/MEGA-DRIVE-wasm/
 
 <br>
 
